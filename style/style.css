@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: .3s ease;
+}
+
+.nav-cont {
+  padding: 15px 50px;
+  position: fixed;
+  top: 0%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+}
+
+.img-bag {
+  width: 22px;
+}
+
+#card {
+  grid-gap: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+section {
+  margin-top: 140px;
+}
+
+.card img {
+  width: 100%;
+  height: 275px;
+}
+
+.modal {
+  padding-top: 150px;
+  background-color: rgba(0, 0, 0, 0.35);
+}
